@@ -1,0 +1,11 @@
+.pagination a{
+    padding:10px 15px;
+    border-radius:8px;
+    margin:3px;
+    background:rgb(243, 243, 243);
+    color:gray;
+}
+.pagination a:hover{
+    background-color:#2ecc71;
+    color:white;
+}
