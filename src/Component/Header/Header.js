@@ -18,11 +18,11 @@ class Header extends Component {
 
                             <ul class="nav navbar-nav navbar-right">
 
-                               <li class="active"><a href="index.html" data-toggle="dropdown">Home</a></li>
-                                <li><Link to="/items">Items</Link></li>
-                                <li><Link to="/addItem">Add Item</Link></li>
-                                <li><Link to="/store">Store</Link></li>
-                                <li><Link to="/addToStore">Add To Store</Link></li>
+                                <li class="home"><Link to="/" data-toggle="dropdown">Home</Link></li>
+                                <li><Link class="item" to="/items">Items</Link></li>
+                                <li><Link class="addItem" to="/addItem">Add Item</Link></li>
+                                <li><Link class="store"  to="/store">Store</Link></li>
+                                <li><Link class="addToStore" to="/addToStore">Add To Store</Link></li>
 
                             </ul>
 
